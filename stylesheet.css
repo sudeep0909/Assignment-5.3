@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/* Applying this to all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* sets a padding and margin to give a space in browser */
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Verdana, Verdana, Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* brand or logo with border and redious  */
+
+header {
+    display: flex;
+    flex-wrap: nowrap;   /* property will set to be stretched. */
+    width: 100%;
+    height: 100%;
+}
+
+header > div{
+    /*border: 1px solid white;
+     border-radius: 10px 10px 10px 10px; */
+    width: 33%;
+    height: 500px;
+    background:  green;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 450px) {
+    header {
+        background-color: white;
+    }
+}
+
+
+        }
